@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Canvas Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎓 Canvas Learning</h1>
+        <p>Your learning journey starts here!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">My Courses</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <main id="home">
+        <section class="welcome">
+            <h2>Welcome to My Learning Dashboard!</h2>
+            <p>Learn new skills, explore courses, and achieve your goals.</p>
+            <button onclick="showMessage()">Start Learning</button>
+        </section>
+
+        <h2 id="courses">📚 My Courses</h2>
+
+        <section class="courses">
+            <article class="card">
+                <div class="emoji">💻</div>
+                <h3>Computer Studies</h3>
+                <p>Learn HTML, CSS, coding, and technology.</p>
+                <button onclick="openCourse('Computer Studies')">
+                    View Course
+                </button>
+            </article>
+
+            <article class="card">
+                <div class="emoji">➗</div>
+                <h3>Mathematics</h3>
+                <p>Practice mathematics and solve problems.</p>
+                <button onclick="openCourse('Mathematics')">
+                    View Course
+                </button>
+            </article>
+
+            <article class="card">
+                <div class="emoji">🔬</div>
+                <h3>Science</h3>
+                <p>Discover science and explore the world.</p>
+                <button onclick="openCourse('Science')">
+                    View Course
+                </button>
+            </article>
+        </section>
+
+        <section class="assignments" id="assignments">
+            <h2>📝 My Assignments</h2>
+            <p>✔ Complete HTML homework</p>
+            <p>✔ Revise mathematics</p>
+            <p>📌 Prepare science notes</p>
+        </section>
+
+        <section id="about">
+            <h2>About This Website</h2>
+            <p>This is a student learning dashboard created using HTML, CSS, and JavaScript.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Canvas Learning Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
